@@ -1,0 +1,7 @@
+version: "3"
+services:
+  netdash:
+    build: .
+    container_name: netdash
+    network_mode: "host"  # 允許 Container 直接連到 vEOS
+    restart: unless-stopped

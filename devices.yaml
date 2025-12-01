@@ -1,0 +1,9 @@
+devices:
+  - host: 192.168.216.11
+    device_type: arista_eos
+    username: admin
+    password: admin
+  - host: 192.168.216.12
+    device_type: arista_eos
+    username: admin
+    password: admin
